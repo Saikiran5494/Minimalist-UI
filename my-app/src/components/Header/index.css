@@ -1,0 +1,9 @@
+.heading {
+  background-color: rgba(34, 33, 33, 0.3);
+  font-family: monospace;
+  color: #fff;
+  padding: 10px;
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: 30px;
+}

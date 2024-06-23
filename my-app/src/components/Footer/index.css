@@ -1,0 +1,19 @@
+.footer-container {
+  background-color: lightcoral;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.follow-heading {
+  font-size: 20px;
+  color: #fff;
+}
+.icon {
+  color: #fff;
+  background-color: rgba(5, 5, 5, 0.1);
+  font-size: 34px;
+  margin: 10px;
+  padding: 5px;
+}
