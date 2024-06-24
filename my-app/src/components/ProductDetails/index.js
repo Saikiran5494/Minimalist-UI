@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "./index.css";
 
@@ -35,6 +36,9 @@ class ProductDetails extends Component {
           <p className="description">{description}</p>
           <h1 className="title">Shipping Time</h1>
           <p>Before you understands that dreams doesn't matter.</p>
+          <Link to="/">
+            <button className="choose-button">Back</button>
+          </Link>
           <button className="choose-button">CHOOSE NOW</button>
         </div>
       </div>
